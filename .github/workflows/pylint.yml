@@ -29,4 +29,4 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m app.py  # Replace with your actual run command
+       python -m app
