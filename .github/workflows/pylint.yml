@@ -1,4 +1,4 @@
-name: Python CI
+name: Python app.py
 
 on:
   push:
@@ -22,10 +22,9 @@ jobs:
       with:
         python-version:  3.12.0  # Replace 'x' with the desired Python version
 
+    
     - name: Install dependencies
-      run: |
-       - name: Install dependencies
-       run: echo "No dependencies to install"
+      run: echo "No dependencies to install"
 
     - name: Run tests
       run: |
