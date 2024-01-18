@@ -29,11 +29,10 @@ jobs:
         python -m unittest discover
 
     - name: Build
-      run: app.py
+      run: |
         # Add any build steps here, e.g., compiling, packaging, etc.
 
-    - name: Upload artifact
-      if: success()
-      uses: actions/upload-artifact@v2
-      with:
-        name: my-app
+    - name: Run app.py
+      run:  python app.py
+        cd path/to/your/app  # Change to the directory where app.py is located
+      
