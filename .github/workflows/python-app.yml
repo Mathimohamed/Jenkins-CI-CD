@@ -30,4 +30,4 @@ jobs:
 
     - name: Lint code
       run: |
-        python  app.py
+        python app.py
